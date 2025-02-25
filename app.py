@@ -50,7 +50,7 @@ if uploaded_files:
 
         # Choose Specific Colums to keep or Covert
         st.subheader("Select Colums to Convert")
-        colums = st.multiselect(f"Choose Colums for {file.name}", df.columns, default=df.columns)
+        columns = st.multiselect(f"Choose Colums for {file.name}", df.columns, default=df.columns)
         df = df[columns]
 
 
