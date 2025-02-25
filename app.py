@@ -30,7 +30,7 @@ if uploaded_files:
 
         #show 5 rows of our data frame
         st.write("Preview the Head of the Dataframe")
-        st.Dataframe(df.head())
+        st.dataframe(df.head())
 
         # Optuions for data cleaning
         st.subheader("Data Cleaning Options")
